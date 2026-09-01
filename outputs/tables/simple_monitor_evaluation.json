@@ -1,0 +1,31 @@
+{
+  "known_event_definition": "faulty unit and timestamp on or after 2023-05-08",
+  "batch": {
+    "n_batches": 259200,
+    "n_known_post_change": 13145,
+    "scorable_pct": 97.93827160493828,
+    "auc": 0.9647387589507037,
+    "detection_pct": 90.85190649996116,
+    "false_alarm_pct": 0.0,
+    "unscorable_batches": 5344
+  },
+  "healthy_support": {
+    "n": 231963,
+    "p99": 1.7665246886927342,
+    "p999": 1.79762442800408,
+    "max": 1.8395249426906914,
+    "theoretical_max": 1.7320508075688772
+  },
+  "regime": {
+    "confirmed_signals": 26,
+    "material_signals": 9,
+    "units_found": 3,
+    "false_material_signals": 0,
+    "first_torque_alarm": "2023-05-08",
+    "sensors": [
+      "density_g_cm3",
+      "mixing_torque_nm",
+      "ph_level"
+    ]
+  }
+}

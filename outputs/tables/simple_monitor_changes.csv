@@ -1,0 +1,10 @@
+unit,sensor,alarm_date,direction,peak_cusum,confirmed
+Plant-04 / R03,density_g_cm3,2023-05-09,up,215.92795354848354,True
+Plant-04 / R03,ph_level,2023-05-11,up,117.1236136908473,True
+Plant-04 / R03,mixing_torque_nm,2023-05-08,down,2048.164454190612,True
+Plant-04 / R07,density_g_cm3,2023-05-10,up,161.82598360761054,True
+Plant-04 / R07,ph_level,2023-05-12,up,115.2406138008034,True
+Plant-04 / R07,mixing_torque_nm,2023-05-08,down,1359.846372847722,True
+Plant-04 / R08,density_g_cm3,2023-05-09,up,216.71182797254573,True
+Plant-04 / R08,ph_level,2023-05-08,up,187.8683595225391,True
+Plant-04 / R08,mixing_torque_nm,2023-05-08,down,2611.6799012458305,True

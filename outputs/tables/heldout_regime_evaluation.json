@@ -1,0 +1,31 @@
+{
+  "definition": "train and validation exclude Plant-04/R03,R07,R08 from 2023-05-08; test contains exactly those excluded batches",
+  "feature_profile": "9 core features",
+  "n_train": 187907,
+  "n_validation": 21186,
+  "n_stress": 13145,
+  "best_iterations": [
+    1191,
+    1112,
+    920,
+    1140,
+    1035
+  ],
+  "metrics": {
+    "actual_mean": 18.60752172830229,
+    "predicted_mean": 20.07192960531709,
+    "bias_months": 1.4644078770147995,
+    "mae_months": 1.4789391966708902,
+    "rmse_months": 1.7256638223557816,
+    "r2": -8.173906258914146,
+    "coverage_pct": 18.372004564473183,
+    "median_interval_width": 1.8487433858872606
+  },
+  "torque_support": {
+    "training_min": 11.4441,
+    "stress_mean": 10.817737273857984,
+    "stress_min": 10.035246115842698,
+    "stress_below_training_min_pct": 97.05931356214596
+  },
+  "conformal_q_global": 1.580478652392726
+}

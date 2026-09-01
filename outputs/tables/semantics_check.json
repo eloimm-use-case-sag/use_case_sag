@@ -1,0 +1,11 @@
+{
+  "shape": [
+    8000,
+    2
+  ],
+  "second_column_negatives": 0,
+  "raw_second_column_negatives": 4004,
+  "max_abs_diff_variance_vs_exp2logsigma": 8.881784197001252e-16,
+  "max_abs_diff_mean_columns": 0.0,
+  "conclusion": "column 1 of RMSEWithUncertainty is the VARIANCE; column 1 of RawFormulaVal is log(sigma)"
+}

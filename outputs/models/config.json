@@ -1,0 +1,53 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "params": {
+    "loss_function": "RMSEWithUncertainty",
+    "iterations": 3000,
+    "learning_rate": 0.05,
+    "depth": 6,
+    "l2_leaf_reg": 6.0,
+    "early_stopping_rounds": 100,
+    "verbose": false,
+    "allow_writing_files": false
+  },
+  "best_iterations": [
+    1538,
+    1416,
+    1356,
+    1611,
+    1442
+  ],
+  "features": [
+    "temp_c",
+    "vessel_pressure_bar",
+    "refractive_index",
+    "density_g_cm3",
+    "ph_level",
+    "mixing_torque_nm",
+    "mass_flow_rate_kg_h",
+    "n_missing",
+    "unit"
+  ],
+  "numeric_features": [
+    "temp_c",
+    "vessel_pressure_bar",
+    "refractive_index",
+    "density_g_cm3",
+    "ph_level",
+    "mixing_torque_nm",
+    "mass_flow_rate_kg_h",
+    "n_missing"
+  ],
+  "cat_features": [
+    "unit"
+  ],
+  "use_temporal_features": false,
+  "val_start": "2023-06-08",
+  "test_start": "2023-06-16"
+}

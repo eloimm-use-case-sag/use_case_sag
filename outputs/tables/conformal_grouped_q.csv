@@ -1,0 +1,7 @@
+n_missing,n_calibration,own_q,eligible,q_used,source
+0,13468,1.569233,True,1.569233,own
+1,7275,1.596575,True,1.596575,own
+2,1682,1.691985,True,1.691985,own
+3,233,1.76996,True,1.76996,own
+4,21,2.511659,False,1.582049,global
+7,476,1.523313,True,1.523313,own

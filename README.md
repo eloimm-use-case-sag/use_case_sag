@@ -113,3 +113,4 @@ itself.
 | hidden-regime 90 % coverage | 18.4 % |
 | anomaly detection / false alarms | 90.9 % / 0.000 % |
 | regime change found | all 3 reactors, same day, no false alarms |
+# use_case_sag
